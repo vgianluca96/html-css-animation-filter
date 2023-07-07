@@ -1,0 +1,66 @@
+
+/* #region Esercizio 1 */
+
+    .ex-1-square {
+        transition: background-color 2s;
+    }
+
+    .ex-1-square:hover {
+        background-color: red;
+    }
+
+/* #endregion Esercizio 1 */
+
+
+/* #region Esercizio 2 */
+
+    .ex-2-square {
+        transition: width 3s;
+    }
+
+    .ex-2-square:active {
+        width: 80%;
+    }
+
+/* #endregion Esercizio 2 */
+
+
+
+/* #region Esercizio 3 */
+
+/* #endregion Esercizio 3 */
+
+
+
+/* #region Esercizio 4 */
+
+/* #endregion Esercizio 4 */
+
+
+
+/* #region Esercizio 5 */
+
+/* #endregion Esercizio 5 */
+
+
+
+/* #region Esercizio 6 */
+
+/* #endregion Esercizio 6 */
+
+
+
+/* #region Esercizio 7 */
+
+/* #endregion Esercizio 7 */
+
+
+/* #region Esercizio 8 */
+
+/* #endregion Esercizio 8 */
+
+
+
+/* #region Esercizio 9 */
+
+/* #endregion Esercizio 9 */
