@@ -89,7 +89,6 @@
         filter: blur(1px) hue-rotate(180deg);
     }
 
-
 /* #endregion Esercizio 7 */
 
 
@@ -109,15 +108,84 @@
 
 /* #region Esercizio 9 */
 
+    .ex-9-img {
+        transition: all 1s;
+    }
+
+    .ex-9-img:hover {
+        filter: saturate(6) opacity(50%);
+        border-radius: 20%;
+        width: 500px;
+    }
+
 /* #endregion Esercizio 9 */
 
 
 /* #region Esercizio 10 */
+    
+    .ex-10-icon {
+        animation-name: rot10;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes rot10 {
+
+        0% {
+            rotate: 0;
+        }
+
+        25% {
+            rotate: 90deg;
+        }
+
+        50% {
+            rotate: 180deg;
+        }
+
+        75% {
+            rotate: 270deg;
+        }
+
+        100% {
+            rotate: 360deg;
+        }
+    
+    }
 
 /* #endregion Esercizio 10 */
 
 
 /* #region Esercizio 11 */
+
+.ex-11-icon:hover {
+        animation-name: rot11;
+        animation-duration: 1s;
+    }
+
+    @keyframes rot11 {
+
+        0% {
+            rotate: 0;
+        }
+
+        25% {
+            rotate: 90deg;
+        }
+
+        50% {
+            rotate: 180deg;
+        }
+
+        75% {
+            rotate: 270deg;
+        }
+
+        100% {
+            rotate: 0;
+        }
+    
+    }
 
 /* #endregion Esercizio 11 */
 
